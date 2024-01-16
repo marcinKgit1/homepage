@@ -1,11 +1,43 @@
-.header {
-    color: rgb(0, 71, 224);
-background-color: rgba(132, 154, 160, 0.418);
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.body {
+
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(230, 225, 225);
+}
+
+.body__bright {
+    background-color: rgb(243, 243, 146);
+}
+
+.body__header {
+    padding-left: 35%;
+    padding-bottom: 20px;
+    margin: auto;
+    color: rgb(0, 19, 192);
+}
+
+.body__button {
+    color: hsl(7, 96%, 34%);
+    background-color: white;
+    margin-left: 15px;
+    padding: 3px;
+}
+
+.body__image {
+    margin: 10px 28%;
+
 
 }
 
-.plany {
-    color: rgb(28, 153, 2);
+.body__subHeader {
+    color: rgb(0, 19, 192);
+    text-shadow: 3px 2px 2px #5d91cc;
 }
-
-.ciekawe{color:rgb(190, 0, 0)}

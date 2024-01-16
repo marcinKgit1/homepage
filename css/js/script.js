@@ -1,8 +1,8 @@
 console.log("Witam wszystkich");
 
-let przycisk = document.querySelector(".przycisk");
-let zdjęcie = document.querySelector(".foto");
+let body = document.querySelector(".body");
+let button = document.querySelector(".body__button");
 
-przycisk.addEventListener("click", () => {
-  zdjęcie.remove();
+button.addEventListener("click", () => {
+  body.classList.toggle("body__bright");
 });

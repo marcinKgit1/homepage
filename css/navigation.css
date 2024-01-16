@@ -1,0 +1,27 @@
+.navigation {
+    background-color: white;
+    border: 2px solid hsl(7, 96%, 34%);
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.navigation__cell {
+    font-size: larger;
+    padding: 15px;
+
+}
+
+.navigation__link {
+    color: hsl(7, 96%, 34%);
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: black;
+}
+
+.navigation__link:active {
+    color: rgb(0, 19, 192);
+}

@@ -4,58 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>strona moduł 2</title>
-    <link rel="icon" href="images/icon.png" />
+    <title>personal homepage</title>
+    <link rel="icon" href="images/business.png" />
     <meta property="og:image" content="images/homepage picture.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
     <script defer src="css/js/script.js"></script>
   </head>
 
-  <body>
-    <h1 class="header">Witam!</h1>
+  <body class="body body--bright">
+    <header>
+      <h1 class="body__header">Marcin Kozłowski</h1>
+      <p>
+        <button class="body__button">zmień tło</button>
+      </p>
+    </header>
+    <nav class="navigation">
+      <table>
+        <th class="navigation__cell" scope="col">
+          <a class="navigation__link" href="#ja">o mnie</a>
+        </th>
+        <th class="navigation__cell" scope="col">
+          <a class="navigation__link" href="#ja-zainteresowania"
+            >moje zainteresowania</a
+          >
+        </th>
+        <th class="navigation__cell" scope="col">
+          <a class="navigation__link" href="#ja-plany">plany na przyszłość</a>
+        </th>
+      </table>
+    </nav>
     <img
-      height="300"
-      width="380"
+      class="body__image"
+      height="350"
+      width="450"
       src="images/hiszpania1.jpg"
       alt="zdjęcie z wakacji"
     />
-    <div class="ciekawe">
-      <h2>Trochę o mnie</h2>
-      <p>
-        <strong>Cześć wszystkim,</strong> jestem Marcin, mieszkam w okolicach
-        Warszawy, prywatnie mąż a zawodowo (na razie) kucharz/pizzerman.
-      </p>
 
-      <h3>Zainteresowania</h3>
-      <p>
-        Już od kilku ładnych lat pasjonuję się gitarą i muzyką,
-        <em>szczególnie blues, lekki rock</em><br />(<b
-          >choć potrafię też docenić inne gatunki i delektować się dobrym
-          wokalem</b
-        >).
-      </p>
-      <p>
-        Poza tym staram się rozwijać jeszcze w innych kierunkach, programowanie
-        jest jednym z nich.
-      </p>
-    </div>
-    <h4>Plany na przyszłość</h4>
-    <span class="plany">
-      <p>
-        Ukończenie tego kursu, osiąganie kolejnych etapów na wytyczonej ścieżce
-        rozwoju oraz oczywiście (<i>a może przede wszystkim</i>) cieszenie się
-        życiem...
-      </p>
-    </span>
-    <p>
-      <button class="przycisk">usuń zdjęcie</button>
-    </p>
-    <img
-      class="foto"
-      height="300"
-      width="350"
-      src="images/hiszpania2.jpg"
-      alt="zachód słońca"
-    />
+    <main>
+      <section id="ja">
+        <h2 class="body__subHeader">Trochę o mnie</h2>
+        <p>
+          <strong>Cześć wszystkim,</strong> jestem Marcin, mieszkam w okolicach
+          Warszawy. Prywatnie od kilku lat jestem szczęśliwym mężem.Jeśli chodzi
+          o sprawy zawodowe, doświadczyłem już pracy w kilku branżach i na
+          różnych stanowiskach. Obecnie jestem związany z gastronomią.
+        </p>
+      </section>
+
+      <section id="ja-zainteresowania">
+        <h2 class="body__subHeader">Zainteresowania</h2>
+        <p>
+          Od dziecka byłem zaangażowany różnego rodzaju aktywności sportowe,
+          przez wiele lat na pierwszym miejscu była piłka nożna. W dorosłym już
+          życiu odkryłem koszykówkę i oczywiście rozgrywki NBA, które
+          dostarczyły mi wspaniałych przeżyć. Obecnie moją pasją jest muzyka i
+          gra na gitarze elektrycznej. W wolnym czasie oprócz rozwoju muzycznego
+          staram się utrzymać rekreacyjną aktywność fizyczną. Od jakiegoś czasu
+          moją uwagę przyciągało programowanie, więc postanowiłem spróbować
+          swoich sił, czego wstępne efekty widać na tej oto stronie.
+        </p>
+      </section>
+      <section id="ja-plany">
+        <h2 class="body__subHeader">Plany na przyszłość</h2>
+
+        <p>
+          W planach na najbliższe miesiące mam przede wszystkim ukończenie tego
+          kursu, zmianę sposobu zarabiania na życie oraz osiąganie kolejnych
+          etapów rozwoju w muzyce, programowaniu i kilku innych aspektach życia.
+          Liczę również na czas i możliwości realizowania ciekawych podróży.
+        </p>
+      </section>
+    </main>
   </body>
 </html>
